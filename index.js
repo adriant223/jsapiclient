@@ -6,9 +6,9 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
    <script src="https://apis.google.com/js/client.js"></script>
    <script type="text/javascript">
-var PROJECT_ID = 'wave44-webhelp-atimis';
+var PROJECT_ID = ''; << id-ul tau de exemplu wave69-don
 var CLIENT_ID = ''; //<< Aici inseram client ID 
-var API_KEY = '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';  //<< Aici inseram API key de la O2 AUTH Credentials
+var API_KEY = '';  //<< Aici inseram API key de la O2 AUTH Credentials
 var SCOPES = 'https://www.googleapis.com/auth/compute';
 var API_VERSION = 'v1';
 
@@ -31,10 +31,10 @@ var DEFAULT_IMAGE_URL = GOOGLE_PROJECT_URL + '/global/images/family/' +
   DEFAULT_IMAGE_FAMILY;
 
 var DEFAULT_IMAGE_NAME = DEFAULT_NAME;
-var DEFAULT_MACHINE_TYPE = 'https://www.googleapis.com/compute/v1/projects/wave44-webhelp-atimis/global/machineTypes/e2-small';
+var DEFAULT_MACHINE_TYPE = 'https://www.googleapis.com/compute/v1/projects/<aici treci id-ul tau (wave-etc)>/global/machineTypes/e2-small'; 
 // Atentie la DEFAULT MACHINE URL trecem si zona, la DEFAULT MACHINE TYPE nu mai trecem zona.
-var DEFAULT_MACHINE_URL = "https://www.googleapis.com/compute/v1/projects/wave44-webhelp-atimis/zones/europe-west1-b/machineTypes/e2-small";
-var DEFAULT_NETWORK = "https://www.googleapis.com/compute/v1/projects/wave44-webhelp-atimis/global/networks/default";
+var DEFAULT_MACHINE_URL = "https://www.googleapis.com/compute/v1/projects/<aici treci id-ul tau (wave-etc)>//zones/<aici introduci zona>/machineTypes/e2-small";
+var DEFAULT_NETWORK = "https://www.googleapis.com/compute/v1/projects/<aici treci id-ul tau (wave-etc)>//global/networks/default";
 
 /**
  * Authorize Google Compute Engine API.
